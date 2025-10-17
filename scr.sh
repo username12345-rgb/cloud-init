@@ -22,7 +22,7 @@ users:
     groups: sudo
     shell: /bin/bash
     lock_passwd: false
-    passwd: '$6$rounds=4096$salt\$hashed'  # замените на реальный хэш, если нужно
+    passwd: '$6$rounds=4096$salt\$hashed'  
 ssh_pwauth: true
 packages:
   - nginx
